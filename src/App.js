@@ -2,6 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Outlet } from 'react-router-dom';
+import PWAPrompt from 'react-ios-pwa-prompt'
+
+
 function App() {
   return (  
     <>
@@ -14,8 +17,10 @@ function App() {
     <footer>
         <p>Do it propely!!</p>
     </footer>
+
+    <PWAPrompt copyTitle="Føj til hjemmeskærm"/>
     </>
-);
+  );
 }
 
 export default App;
