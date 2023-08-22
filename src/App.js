@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Outlet } from 'react-router-dom';
 import PWAPrompt from 'react-ios-pwa-prompt'
