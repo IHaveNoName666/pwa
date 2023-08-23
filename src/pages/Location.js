@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
- 
+  
 const Location = () => {
     const [myPos, setMyPos] = useState();
     const [dynPos, setDynPos] = useState();
