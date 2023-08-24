@@ -4,8 +4,7 @@ const Gyro = () => {
     const [deviceAlpha, setDeviceAlpha] = useState();
     const [deviceBeta, setDeviceBeta] = useState();
     const [deviceGamma, setDeviceGamma] = useState();
-    const [isIOS, setIsIos] = useState(false);
-    dw  
+    const [isIOS, setIsIos] = useState(false);  
 
     useEffect(() => {
         if(navigator?.userAgent.match(/Iphone/i)) {
