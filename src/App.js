@@ -18,7 +18,7 @@ function App() {
         <p>Sej header</p>
         <nav>
           <Link to="/">Home</Link>&nbsp;&nbsp;
-          <Link to="/location">Location</Link>
+          <Link to="/location">Location</Link>  
         </nav>
       </header>
       <main>
