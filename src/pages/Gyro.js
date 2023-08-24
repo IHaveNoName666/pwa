@@ -47,7 +47,7 @@ const Gyro = () => {
             {isIOS && !deviceAlpha ? <button onClick={enableDeviceOrientation}>
                 Enable on iphone</button> : null}
 
-        </>
+         </>
      );
 }
 
